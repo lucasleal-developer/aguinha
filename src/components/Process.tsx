@@ -51,9 +51,9 @@ export default function Process() {
           <div className="hidden md:block absolute top-1/2 left-0 right-0 h-1 bg-white/30 -translate-y-1/2 z-0" />
 
           <div className="grid grid-cols-1 md:grid-cols-5 gap-8">
-            {steps.map((step, index) => (
-              <div 
-                key={step.id} 
+            {steps.map((step) => (
+              <div
+                key={step.id}
                 className="relative z-10 flex flex-col items-center text-center"
               >
                 <div className="bg-white rounded-full p-4 mb-4 shadow-lg">
@@ -82,7 +82,7 @@ export default function Process() {
           <p className="max-w-2xl mx-auto mb-8">
             Nossa missão é entregar a água de coco mais pura e saborosa, preservando todos os benefícios que a natureza oferece. Cada etapa do nosso processo é cuidadosamente monitorada para garantir a excelência do produto final.
           </p>
-          <a 
+          <a
             href="#"
             className="inline-block bg-white text-[var(--primary-dark)] hover:bg-[var(--text-light)] font-bold py-3 px-8 rounded-full transition-colors duration-300"
           >

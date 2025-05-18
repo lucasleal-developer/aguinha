@@ -108,7 +108,7 @@ export default function Testimonials() {
               </div>
 
               <blockquote className="text-xl italic text-gray-800 mb-8">
-                "{testimonials[activeIndex].quote}"
+                &ldquo;{testimonials[activeIndex].quote}&rdquo;
               </blockquote>
 
               <div className="flex justify-between">
