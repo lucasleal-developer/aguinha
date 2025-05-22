@@ -71,10 +71,10 @@ export default function Benefits() {
             <div className="md:w-1/3 mb-6 md:mb-0">
               <div className="relative h-48 w-48 mx-auto">
                 <Image
-                  src="/coconut-cut.svg"
+                  src="/images/coconut-cut.jpg"
                   alt="Coco cortado"
                   fill
-                  className="object-contain"
+                  className="object-cover rounded-lg"
                 />
               </div>
             </div>

@@ -7,7 +7,7 @@ const products = [
     name: 'Água de Coco Natural',
     description: 'Nossa água de coco pura, extraída diretamente do coco verde e envasada sem adição de conservantes.',
     price: 'R$ 9,90',
-    image: '/products/natural.svg',
+    image: '/images/coconut-drink.jpg',
     sizes: ['300ml', '500ml', '1L'],
     featured: true,
   },
@@ -16,7 +16,7 @@ const products = [
     name: 'Água de Coco com Limão',
     description: 'A refrescante água de coco com um toque de limão natural para um sabor ainda mais revigorante.',
     price: 'R$ 10,90',
-    image: '/products/lemon.svg',
+    image: '/images/coconut-lemon.jpg',
     sizes: ['300ml', '500ml'],
     featured: false,
   },
@@ -25,7 +25,7 @@ const products = [
     name: 'Água de Coco com Abacaxi',
     description: 'Uma combinação tropical de água de coco com abacaxi, perfeita para os dias quentes.',
     price: 'R$ 10,90',
-    image: '/products/pineapple.svg',
+    image: '/images/coconut-pineapple.jpg',
     sizes: ['300ml', '500ml'],
     featured: false,
   },
@@ -34,7 +34,7 @@ const products = [
     name: 'Kit Detox',
     description: 'Pacote com 7 unidades de água de coco natural para sua semana de desintoxicação.',
     price: 'R$ 59,90',
-    image: '/products/detox-kit.svg',
+    image: '/images/coconut-detox.jpg',
     sizes: ['7x300ml'],
     featured: true,
   },
@@ -71,7 +71,7 @@ export default function Products() {
                   src={product.image}
                   alt={product.name}
                   fill
-                  className="object-contain p-4"
+                  className="object-cover p-2 rounded-t-lg"
                 />
               </div>
               <div className="p-6 flex-grow">
