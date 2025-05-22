@@ -7,7 +7,7 @@ export default function Hero() {
       {/* Background Image */}
       <div className="absolute inset-0 z-0">
         <Image
-          src="/hero-bg.svg"
+          src="/images/hero-bg.jpg"
           alt="Água de Coco Tropical"
           fill
           className="object-cover brightness-[0.85]"
